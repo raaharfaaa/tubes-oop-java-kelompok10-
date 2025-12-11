@@ -1,5 +1,5 @@
-Public class azwardi {
-    public static void main(string[]args) {
-        system.out.println(x: "azwardi");
+public class azwardi {
+    public static void main(String[]args) {
+        System.out.println( "azwardi");
     }
 }
