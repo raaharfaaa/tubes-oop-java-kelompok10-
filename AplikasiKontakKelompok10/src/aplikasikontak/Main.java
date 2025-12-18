@@ -3,8 +3,6 @@ package aplikasikontak;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
-import AplikasiKontakKelompok10.src.aplikasikontak.AplikasiKontakGUI;
-
 public class Main {
  public static void main(String[] args) {
         // Set look and feel
