@@ -4,6 +4,14 @@ import backend.Kontak;
 import java.io.*;
 import java.util.ArrayList;
 
+<<<<<<< HEAD
+=======
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+
+>>>>>>> ebdc74dfb8274cf07e1f0ec9c466b3277594ad09
 public class DataExporter {
     public static void exportToCSV(ArrayList<Kontak> kontakList, String filename) {
         try (PrintWriter writer = new PrintWriter(new File(filename))) {
@@ -29,10 +37,18 @@ public class DataExporter {
             System.err.println("Error exporting data: " + e.getMessage());
         }
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> ebdc74dfb8274cf07e1f0ec9c466b3277594ad09
     public static ArrayList<Kontak> importFromCSV(String filename) {
         ArrayList<Kontak> kontakList = new ArrayList<>();
         // Implementasi import dari CSV (bisa dikembangkan)
         return kontakList;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> ebdc74dfb8274cf07e1f0ec9c466b3277594ad09
