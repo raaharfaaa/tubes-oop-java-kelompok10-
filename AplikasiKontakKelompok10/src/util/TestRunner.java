@@ -1,4 +1,6 @@
-package AplikasiKontakKelompok10.src.util;
+package util;
+
+import backend.*;
 
 public class TestRunner {
     public static void runTests() {
@@ -8,6 +10,10 @@ public class TestRunner {
         testDuplikat();
         System.out.println("=== TESTS COMPLETED ===");
     }
+<<<<<<< HEAD
+    
+=======
+>>>>>>> ebdc74dfb8274cf07e1f0ec9c466b3277594ad09
     private static void testValidasiNomor() {
         try {
             new Kontak("Test", "123");
@@ -24,5 +30,9 @@ public class TestRunner {
     private static void testDuplikat() {
         // Implementasi testing duplikat
     }
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> ebdc74dfb8274cf07e1f0ec9c466b3277594ad09
